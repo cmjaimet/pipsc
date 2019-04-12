@@ -1,0 +1,106 @@
+.skip {position: absolute; top: -4em; display: none} /*Opera*/
+* html .skip {display: block; position: absolute; top: -4em; left: 0; z-index: 40} /*Seen by IE*/
+html:not([dummy]) .skip {display: block; position: absolute; top: -4em; left: 0; z-index: 40} /*Seen by Moz and FF*/
+.skip a {	padding: 10px; 	left: 0; 	z-index: 20; }
+.skip a:hover {	cursor: pointer; text-decoration: underline;	color: #CA0000;}
+.skip a:focus, .skip a:active {display: inline;  z-index: 19;  border: solid #034F81 1px; background: white; color: #034F81; text-decoration: none;  position: absolute;  top: 10ex;  left: 0em;
+}
+#form_container legend { font-weight:bold;}
+
+span.required { color: red ;}
+
+#form_footer p { text-align:center; padding-bottom: 15px; }
+
+#form_top_election { display:block; height:10px; margin:10px auto 0;  }
+
+#form_bottom_election{display:block;height:10px;margin:0 auto;}
+
+#form_container_election {padding:6px;border:1px solid #ccc; margin:0px auto;}
+
+.wrap{  padding: 5px 0 5px 0; margin:0px auto; clear:both; }
+
+fieldset.election {  border-top:1px solid #015092; border-right:1px solid #015092; border-left:1px solid #015092; border-bottom:3px solid #015092; background-color:#F3F8FF; padding:2px 6px 2px 6px; margin:0px auto; }
+
+fieldset.election_accessible {  border-top:1px solid #015092; border-right:1px solid #015092; border-left:1px solid #015092; border-bottom:5px solid #015092; background-color:#F3F8FF; padding:2px 10px 7px 10px; margin:10px; }
+
+fieldset.election div { margin:2px; padding:2px 5px 2px 5px; display:inline; }
+
+fieldset.election_accessible div { margin:4px; padding:2px 5px 2px 5px;  }
+
+#form_container_election label{ margin:0 2px 0 2px; padding:0 2px 0 2px; font-size:14px;}
+
+#form_container_election legend { font-size:12px; font-weight:bold; color:#015092; background-color:#fff; border: 1px solid #ccc; padding: 2px 8px; margin:2px;}
+
+#form_footer_election { clear:both; color:#999999; text-align:center; margin:0 auto; padding-bottom: 10px;}
+
+#form_top { display:block; height:5px; }
+
+#form_bottom { display:block; height:5px; }
+
+fieldset.election_fpp { border-top:1px solid #015092; border-right:1px solid #015092; border-left:1px solid #015092; border-bottom:5px solid #015092; background-color:#F3F8FF; padding:2px 10px 7px 10px; margin:10px auto;}
+
+.wrap_fpp{padding: 10px 0 10px 0;margin:10px auto;clear:both;}
+
+fieldset.election_fpp div {margin:2px;padding:4px 4px 4px 4px;}
+
+img.thumb60 { float: left;  height:60px; padding: 4px; border: 1px solid #000; margin: 2px 5px 2px 0px;}
+
+#election_wrapper {margin:0px auto;}
+
+#election_form { float:left;}
+
+.column_div_logo {float: right; height: auto; margin: 15px 0 10px 5px; padding: 5px;  clear:right; }
+
+.column_box {float:left; height: auto; margin: 10px 10px 10px 0px; padding: 5px; border: 1px solid #015092;   min-height:270px; }
+
+.column_box  h3 {color:#015092; }
+
+.column_box_notes {float: right; height: auto; margin: 10px 0 10px 5px; padding: 5px; border: 1px solid #666666; background-color: #F3F8FF; color: #666666;  }
+
+.elect_bt  {  border: solid 1px #1A9507;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+background: #4AA613;
+background: -webkit-gradient(linear, left top, left bottom, from(#4AA613), to(#028C01));
+background: -moz-linear-gradient(top,  #4AA613,  #028C01);
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#4AA613', endColorstr='#028C01');
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.8);
+margin-right:15px; margin-bottom:5px; float:right; font-size:16px;   padding:10px 10px 10px 10px;}
+
+
+.clear_lg {
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+color: #fff;
+	border: solid 1px #980c10;
+	background: #d81b21;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ed1c24), to(#aa1317));
+	background: -moz-linear-gradient(top,  #ed1c24,  #aa1317);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed1c24', endColorstr='#aa1317');
+  text-align: center;
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.8);
+  margin-right:15px; margin-bottom:5px; float:right; font-size:16px;   padding:10px 10px 10px 10px;}
+
+.clear_sm {  margin-right:5px; margin-bottom:5px; float:right; font-size:12px;   padding:2px; -moz-border-radius: 4px; -webkit-border-radius: 4px;   border-radius: 4px; -moz-box-shadow: 1px 1px 3px #999;  -webkit-box-shadow: 1px 1px 3px #999;  text-align:center;text-decoration: none; font-weight:bold; color: #000;  background: -webkit-gradient(linear, left top, left bottom, from(#4AA613), to(#028C01)); background-color:#f8d44c; background:-moz-linear-gradient(top,#fff39c,#fee474 50%,#fdd14c 50%,#fcc42e); background:-webkit-gradient(linear,left bottom,left top,color-stop(0.00,#FCC42E),color-stop(0.50,#FDD14C),color-stop(0.50,#FEE474),color-stop(1.00,#FFF39C)); border:1px solid #878787;}
+
+.elect_bt:hover {  background: #287703;
+	background: -webkit-gradient(linear, left top, left bottom, from(#287703), to(##1C5601));
+	background: -moz-linear-gradient(top,  #287703,  #1C5601);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#287703', endColorstr='#1C5601'); }
+
+.clear_sm:hover { color: #000; border:1px solid #878787; background: #fff39c;}
+
+.clear_lg:hover   { background: #b61318;
+	background: -webkit-gradient(linear, left top, left bottom, from(#c9151b), to(#a11115));
+	background: -moz-linear-gradient(top,  #c9151b,  #a11115);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#c9151b', endColorstr='#a11115');}
+
+#form_container_election input [type=radio] { margin:0 2px 0 2px; padding:0 2px 0 2px; }
+
+.input_field{ padding:6px; }
+
+h1 a { color: red !important; }
